@@ -1,0 +1,180 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/clk_wiz_0_clk_out2:false|/sys_clock_1:false|/reset_1:false|/clk_wiz_0_clk_out1:false|",
+   "Addressing View_ScaleFactor":"1.5",
+   "Addressing View_TopLeft":"-340,-474",
+   "Color Coded_Layers":"/clk_wiz_0_clk_out1:true|/reset_1:true|/clk_wiz_0_clk_out2:true|/sys_clock_1:true|",
+   "Color Coded_ScaleFactor":"0.807973",
+   "Color Coded_TopLeft":"-288,-1",
+   "Default View_Layers":"/clk_wiz_0_clk_out1:true|/reset_1:true|/clk_wiz_0_clk_out2:true|/sys_clock_1:true|",
+   "Default View_ScaleFactor":"0.289455",
+   "Default View_TopLeft":"-142,-166",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layers":"/clk_wiz_0_clk_out2:true|/sys_clock_1:true|/reset_1:true|/clk_wiz_0_clk_out1:true|",
+   "Grouping and No Loops_ScaleFactor":"0.587107",
+   "Grouping and No Loops_TopLeft":"-588,-2",
+   "Interfaces View_ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/clk_wiz_0_clk_out2:false|/sys_clock_1:false|/reset_1:false|/clk_wiz_0_clk_out1:false|",
+   "Interfaces View_Layout":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 9 -x 2150 -y 220 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace inst Pmod_JSTK2_0 -pg 1 -lvl 7 -x 1690 -y 280 -defaultsOSRD
+preplace inst packetizer_0 -pg 1 -lvl 6 -x 1430 -y 280 -defaultsOSRD
+preplace inst moving_average_0 -pg 1 -lvl 6 -x 1430 -y 70 -defaultsOSRD
+preplace inst depacketizer_0 -pg 1 -lvl 2 -x 420 -y 60 -defaultsOSRD
+preplace inst Volume_Controller_0 -pg 1 -lvl 4 -x 920 -y 160 -defaultsOSRD
+preplace inst Volume_Controller_1 -pg 1 -lvl 4 -x 920 -y 60 -defaultsOSRD
+preplace inst Mute_0 -pg 1 -lvl 7 -x 1690 -y 70 -defaultsOSRD
+preplace inst Mix_Controller_0 -pg 1 -lvl 5 -x 1170 -y 70 -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 8 -x 1980 -y 70 -defaultsOSRD
+preplace inst AXI4Stream_UART_0 -pg 1 -lvl 1 -x 160 -y 210 -defaultsOSRD
+preplace inst pmod_i2s2_0 -pg 1 -lvl 2 -x 420 -y 280 -defaultsOSRD
+preplace inst Balance_Controller_0 -pg 1 -lvl 3 -x 670 -y 160 -defaultsOSRD
+preplace inst Balance_Controller_1 -pg 1 -lvl 3 -x 670 -y 60 -defaultsOSRD
+preplace netloc AXI4Stream_UART_0_M00_AXIS_RX 1 1 1 300 60n
+preplace netloc AXI4Stream_UART_0_UART 1 1 8 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ
+preplace netloc depacketizer_0_m_axis 1 2 1 NJ 60
+preplace netloc Balance_Controller_1_m_axis 1 3 1 NJ 60
+preplace netloc Volume_Controller_1_m_axis 1 4 1 NJ 60
+preplace netloc Volume_Controller_0_m_axis 1 4 1 1040J 80n
+preplace netloc Balance_Controller_0_m_axis 1 3 1 NJ 160
+preplace netloc Mix_Controller_0_m_axis 1 5 1 NJ 70
+preplace netloc moving_average_0_m_axis 1 6 1 NJ 70
+preplace netloc Mute_0_m_00_axis 1 7 1 NJ 70
+levelinfo -pg 1 0 160 420 670 920 1170 1430 1690 1980 2150
+pagesize -pg 1 -db -bbox -sgen -80 0 2260 340
+",
+   "Interfaces View_ScaleFactor":"1.08826",
+   "Interfaces View_TopLeft":"-80,-137",
+   "No Loops_ScaleFactor":"0.803462",
+   "No Loops_TopLeft":"-288,-1",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "Reduced Jogs_Layers":"/clk_wiz_0_clk_out2:true|/sys_clock_1:true|/reset_1:true|/clk_wiz_0_clk_out1:true|",
+   "Reduced Jogs_ScaleFactor":"0.587107",
+   "Reduced Jogs_TopLeft":"-588,-2",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 13 -x 3970 -y 1010 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -10 -y 1170 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -10 -y 1080 -defaultsOSRD
+preplace port sw_ch1 -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port sw_ch0 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port sw_eff -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port dp -pg 1 -lvl 13 -x 3970 -y 160 -defaultsOSRD
+preplace port tx_mclk_0 -pg 1 -lvl 13 -x 3970 -y 1160 -defaultsOSRD
+preplace port tx_lrck_0 -pg 1 -lvl 13 -x 3970 -y 1190 -defaultsOSRD
+preplace port rx_mclk_0 -pg 1 -lvl 13 -x 3970 -y 1280 -defaultsOSRD
+preplace port rx_lrck_0 -pg 1 -lvl 13 -x 3970 -y 1310 -defaultsOSRD
+preplace port tx_sclk_0 -pg 1 -lvl 13 -x 3970 -y 1220 -defaultsOSRD
+preplace port tx_sdout_0 -pg 1 -lvl 13 -x 3970 -y 1250 -defaultsOSRD
+preplace port rx_sclk_0 -pg 1 -lvl 13 -x 3970 -y 1340 -defaultsOSRD
+preplace port rx_sdin_0 -pg 1 -lvl 0 -x -10 -y 1290 -defaultsOSRD
+preplace port SPI_0_io0_io -pg 1 -lvl 13 -x 3970 -y 770 -defaultsOSRD
+preplace port SPI_0_sck_io -pg 1 -lvl 13 -x 3970 -y 740 -defaultsOSRD
+preplace port SPI_0_io1_io -pg 1 -lvl 0 -x -10 -y 980 -defaultsOSRD
+preplace portBus seg -pg 1 -lvl 13 -x 3970 -y 130 -defaultsOSRD
+preplace portBus an -pg 1 -lvl 13 -x 3970 -y 100 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 13 -x 3970 -y 840 -defaultsOSRD
+preplace portBus SPI_0_ss_io -pg 1 -lvl 13 -x 3970 -y 710 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 160 -y 1160 -swap {0 1 2 4 3} -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 460 -y 1070 -defaultsOSRD
+preplace inst Led_Controller_0 -pg 1 -lvl 1 -x 160 -y 830 -defaultsOSRD
+preplace inst Pmod_JSTK2_0 -pg 1 -lvl 2 -x 460 -y 830 -defaultsOSRD
+preplace inst moving_average_0 -pg 1 -lvl 7 -x 2210 -y 850 -swap {0 1 2 3 4 5 6 7 8 9 12 11 13 10} -defaultsOSRD
+preplace inst edge_detector_0 -pg 1 -lvl 7 -x 2210 -y 1030 -swap {0 2 1 3} -defaultsOSRD
+preplace inst edge_detector_1 -pg 1 -lvl 6 -x 1810 -y 870 -swap {0 2 1 3} -defaultsOSRD
+preplace inst debouncer_0 -pg 1 -lvl 6 -x 1810 -y 1050 -swap {1 2 0 3} -defaultsOSRD
+preplace inst debouncer_1 -pg 1 -lvl 5 -x 1480 -y 860 -swap {1 2 0 3} -defaultsOSRD
+preplace inst Volume_Controller_0 -pg 1 -lvl 5 -x 1480 -y 290 -swap {0 1 2 3 4 5 6 7 8 9 12 13 10 11} -defaultsOSRD
+preplace inst Volume_Controller_1 -pg 1 -lvl 5 -x 1480 -y 470 -swap {0 1 2 3 4 5 6 7 8 9 12 13 10 11} -defaultsOSRD
+preplace inst UART_Audio_Syncronyz_0 -pg 1 -lvl 10 -x 3170 -y 930 -defaultsOSRD
+preplace inst Mute_0 -pg 1 -lvl 8 -x 2540 -y 1010 -swap {0 1 2 3 4 5 6 7 8 9 11 13 12 10} -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 9 -x 2850 -y 1030 -defaultsOSRD
+preplace inst AXI4Stream_UART_0 -pg 1 -lvl 12 -x 3750 -y 1020 -swap {8 1 2 3 4 5 6 7 0 9 10 13 12 11 16 14 15} -defaultsOSRD
+preplace inst pmod_i2s2_0 -pg 1 -lvl 12 -x 3750 -y 1270 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 19 20 17 18} -defaultsOSRD
+preplace inst Balance_Controller_0 -pg 1 -lvl 4 -x 1170 -y 470 -defaultsOSRD
+preplace inst Balance_Controller_1 -pg 1 -lvl 4 -x 1170 -y 680 -defaultsOSRD
+preplace inst packetizer_0 -pg 1 -lvl 11 -x 3420 -y 950 -defaultsOSRD
+preplace inst depacketizer_0 -pg 1 -lvl 3 -x 840 -y 1050 -defaultsOSRD
+preplace inst Mix_Controller_0 -pg 1 -lvl 6 -x 1810 -y 650 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 15 16} -defaultsOSRD
+preplace inst State_Decoder_0 -pg 1 -lvl 3 -x 840 -y 150 -defaultsOSRD
+preplace inst driver_4_7seg_0 -pg 1 -lvl 12 -x 3750 -y 140 -swap {8 9 0 1 2 3 4 5 6 7 10 11 12} -defaultsOSRD
+preplace inst led_level_controller_0 -pg 1 -lvl 12 -x 3750 -y 840 -defaultsOSRD
+preplace netloc sys_clock_1 1 0 1 NJ 1170
+preplace netloc reset_1 1 0 12 20 1070 300 1010 680J 950 NJ 950 1340 940 1670 1150 2050 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 3570
+preplace netloc clk_wiz_0_clk_out1 1 1 11 290 1130 660 660 1000 580 1320 680 1660 1130 2020 940 2390 920 2690 940 3050 1010 3290 870 3560
+preplace netloc util_vector_logic_0_Res 1 2 10 670 680 990 370 1330 650 1640 790 2020 730 2370 900 2700 950 3040 1020 3280 860 3550
+preplace netloc Led_Controller_0_led_b 1 1 1 N 810
+preplace netloc Led_Controller_0_led_g 1 1 1 N 830
+preplace netloc Led_Controller_0_led_r 1 1 1 N 850
+preplace netloc ch1_in_0_1 1 0 3 NJ 130 NJ 130 610J
+preplace netloc ch0_in_0_1 1 0 3 NJ 100 NJ 100 610J
+preplace netloc eff_in_0_1 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc State_Decoder_0_num1 1 3 9 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 N
+preplace netloc State_Decoder_0_num2 1 3 9 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 NJ 70 N
+preplace netloc State_Decoder_0_num3 1 3 9 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 N
+preplace netloc State_Decoder_0_num4 1 3 9 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 N
+preplace netloc State_Decoder_0_en1 1 3 9 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 N
+preplace netloc State_Decoder_0_en2 1 3 9 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 N
+preplace netloc State_Decoder_0_en3 1 3 9 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 NJ 170 N
+preplace netloc State_Decoder_0_en4 1 3 9 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 N
+preplace netloc Pmod_JSTK2_0_out_valid 1 2 1 610 180n
+preplace netloc edge_detector_1_edge_detected 1 6 1 2000 860n
+preplace netloc debouncer_1_debounced 1 5 1 1610 860n
+preplace netloc debouncer_0_debounced 1 6 1 2030 1030n
+preplace netloc edge_detector_0_edge_detected 1 7 1 2380 1000n
+preplace netloc Mute_0_muted 1 0 9 10 1000 NJ 1000 690J 960 NJ 960 NJ 960 NJ 960 1970J 710 NJ 710 2670
+preplace netloc moving_average_0_filter_enabled 1 0 8 20 990 NJ 990 700J 970 NJ 970 NJ 970 NJ 970 2010J 750 2360
+preplace netloc driver_4_7seg_0_seg 1 12 1 3900J 130n
+preplace netloc driver_4_7seg_0_an 1 12 1 3900J 100n
+preplace netloc driver_4_7seg_0_dp 1 12 1 NJ 160
+preplace netloc pmod_i2s2_0_tx_mclk 1 12 1 3910J 1160n
+preplace netloc pmod_i2s2_0_tx_lrck 1 12 1 3920J 1190n
+preplace netloc pmod_i2s2_0_rx_mclk 1 12 1 3950J 1280n
+preplace netloc pmod_i2s2_0_rx_lrck 1 12 1 3920J 1310n
+preplace netloc pmod_i2s2_0_tx_sclk 1 12 1 3930J 1220n
+preplace netloc pmod_i2s2_0_tx_sdout 1 12 1 3940J 1250n
+preplace netloc pmod_i2s2_0_rx_sclk 1 12 1 NJ 1340
+preplace netloc led_level_controller_0_led 1 12 1 NJ 840
+preplace netloc rx_sdin_0_1 1 0 12 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ
+preplace netloc clk_wiz_0_clk_out2 1 1 11 NJ 1180 NJ 1180 NJ 1180 NJ 1180 NJ 1180 2040J 950 2360J 910 NJ 910 3010J 1120 NJ 1120 3580
+preplace netloc Pmod_JSTK2_0_jstk_btn 1 2 4 650J 810 NJ 810 1340J 780 1620
+preplace netloc Pmod_JSTK2_0_trigger_btn 1 2 3 NJ 920 NJ 920 1330
+preplace netloc Pmod_JSTK2_0_jstk_x 1 2 4 640 760 980 570 1310J 640 NJ
+preplace netloc Pmod_JSTK2_0_jstk_y 1 2 3 620J 350 NJ 350 1340
+preplace netloc State_Decoder_0_ch0 1 3 2 1010 290 N
+preplace netloc State_Decoder_0_ch1 1 3 2 970 360 1310
+preplace netloc State_Decoder_0_eff_out 1 3 3 960J 180 NJ 180 1660
+preplace netloc Pmod_JSTK2_0_SPI_ss_o 1 2 11 630J 770 980J 800 1310J 760 1620J 770 1960J 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 3910J
+preplace netloc Pmod_JSTK2_0_SPI_io0_o 1 2 11 630J 940 NJ 940 1310J 950 NJ 950 1990J 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 3910J
+preplace netloc Pmod_JSTK2_0_SPI_sck_o 1 2 11 650J 790 NJ 790 1290J 750 1630J 780 1980J 740 NJ 740 NJ 740 NJ 740 NJ 740 NJ 740 NJ
+preplace netloc SPI_io1_i_0_1 1 0 3 NJ 980 NJ 980 600
+preplace netloc clk_wiz_0_clk_out3 1 1 11 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 NJ 1160 3530
+preplace netloc depacketizer_0_m_axis 1 3 1 1010 640n
+preplace netloc Balance_Controller_1_m_axis 1 4 1 1300 430n
+preplace netloc Volume_Controller_0_m_axis 1 5 1 1640 290n
+preplace netloc Balance_Controller_0_m_axis 1 4 1 1290 250n
+preplace netloc Volume_Controller_1_m_axis 1 5 1 1630 470n
+preplace netloc Mix_Controller_0_m_axis 1 6 1 2000 650n
+preplace netloc moving_average_0_m_axis 1 7 1 2380 840n
+preplace netloc AXI4Stream_UART_0_M00_AXIS_RX 1 2 11 710 780 NJ 780 1300J 770 1650J 760 1950J 700 NJ 700 NJ 700 NJ 700 NJ 700 NJ 700 3900
+preplace netloc axis_broadcaster_0_M02_AXIS 1 9 1 3030 910n
+preplace netloc Mute_0_m_00_axis 1 8 1 2680 1000n
+preplace netloc packetizer_0_m_axis 1 11 1 3580 950n
+preplace netloc axis_broadcaster_0_M01_AXIS 1 9 3 3020J 850 NJ 850 3550
+preplace netloc axis_broadcaster_0_M00_AXIS 1 9 3 3000 1110 NJ 1110 3540J
+preplace netloc pmod_i2s2_0_M_AXIS 1 3 10 1020 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 3900
+preplace netloc UART_Audio_Syncronyz_0_m_axis 1 10 1 N 930
+preplace netloc AXI4Stream_UART_0_UART 1 12 1 N 1010
+levelinfo -pg 1 -10 160 460 840 1170 1480 1810 2210 2540 2850 3170 3420 3750 3970
+pagesize -pg 1 -db -bbox -sgen -140 -10 4120 1400
+"
+}
+{
+   "da_clkrst_cnt":"8"
+}
