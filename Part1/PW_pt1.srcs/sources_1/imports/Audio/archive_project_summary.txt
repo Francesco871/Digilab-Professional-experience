@@ -1,0 +1,596 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = Audio
+Directory = D:/Xilinx/Projects/Audio
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<design_1_FIR_0_0_synth_1>
+<design_1_pmod_i2s2_0_0_synth_1>
+<design_1_Volume_Controller_0_0_synth_1>
+<design_1_Mute_0_0_synth_1>
+<design_1_edge_detector_0_0_synth_1>
+<design_1_Balance_Controller_0_0_synth_1>
+<design_1_Led_Controller_0_0_synth_1>
+<design_1_edge_detector_0_1_synth_1>
+<design_1_led_level_controller_0_0_synth_1>
+<design_1_AXI4Stream_UART_0_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<design_1_AXI4Stream_UART_0_0>
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Engine.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Manager.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0.vhd
+
+<design_1_Balance_Controller_0_0>
+None
+
+<design_1_FIR_0_0>
+None
+
+<design_1_Led_Controller_0_0>
+None
+
+<design_1_Mute_0_0>
+None
+
+<design_1_Volume_Controller_0_0>
+None
+
+<design_1_edge_detector_0_0>
+None
+
+<design_1_edge_detector_0_1>
+None
+
+<design_1_led_level_controller_0_0>
+None
+
+<design_1_pmod_i2s2_0_0>
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/pmod_i2s2_v1_0.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/axis_i2s2_fifo.vhd
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/pmod_i2s2_v1_0.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/axis_i2s2_fifo.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/3f90/hdl/util_vector_logic_v2_0_vl_rfs.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0bf5/simulation/dist_mem_gen_v8_0.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/simulation/fifo_generator_vlog_beh.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.v
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/63ec/hdl/axi_quad_spi_v3_2_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0bf5/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/2985/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/ee06/src/jstk2_axi_qspi_interface.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/ee06/src/design_1.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Engine.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Manager.vhd
+c:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4864-DESKTOP-EJ6FDCJ/PrjAr/_X_/Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0.vhd
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./Audio.srcs/sources_1/new/FIR.vhd
+./Audio.srcs/sources_1/imports/Downloads/edge_detector.vhd
+./Audio.srcs/sources_1/new/Led_Controller.vhd
+./Audio.srcs/sources_1/new/Balance_Controller.vhd
+./Audio.srcs/sources_1/imports/new/Volume_Controller.vhd
+./Audio.srcs/sources_1/imports/new/Mute.vhd
+./Audio.srcs/sources_1/imports/new/led_level_controller.vhd
+./Audio.srcs/sources_1/bd/design_1/design_1.bd
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/axis_data_fifo_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_infrastructure_v1_1_0.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_infrastructure_v1_1_vl_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_data_fifo_v2_0_vl_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/sim/axis_data_fifo_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/synth/axis_data_fifo_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/axis_data_fifo_0.xml
+./Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/pmod_i2s2_v1_0.v
+./Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/axis_i2s2_fifo.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/sim/design_1_pmod_i2s2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/synth/design_1_pmod_i2s2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ipshared/3f90/hdl/util_vector_logic_v2_0_vl_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/sim/design_1_util_vector_logic_0_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/synth/design_1_util_vector_logic_0_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0_1/design_1_util_vector_logic_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_board.xdc
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+./Audio.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_clk_wiz.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_ooc.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0bf5/simulation/dist_mem_gen_v8_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/simulation/fifo_generator_vlog_beh.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_0_mixed.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_1_wb.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_2_nm.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_4_mx.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_0_mixed.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_1_wb.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_2_nm.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_4_mx.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_3_sp.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_3_sp.mif
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_0_mixed.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_1_wb.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_2_nm.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_4_mx.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_0_mixed.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_1_wb.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_2_nm.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_4_mx.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_2_memory_3_sp.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/netlist/mode_1_memory_3_sp.mem
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/63ec/hdl/axi_quad_spi_v3_2_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/sim/design_1_axi_quad_spi_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/0bf5/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/2985/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/276e/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_ooc.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_clocks.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/synth/design_1_axi_quad_spi_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0.xml
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xml
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xml
+./Audio.gen/sources_1/bd/design_1/ipshared/ee06/src/jstk2_axi_qspi_interface.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1.hwdef
+./Audio.gen/sources_1/bd/design_1/ipshared/ee06/src/design_1.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/sim/design_1_Pmod_JSTK2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/src/design_1_ooc.xdc
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/synth/design_1_Pmod_JSTK2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Pmod_JSTK2_0_0_1/design_1_Pmod_JSTK2_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/sim/design_1_FIR_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/synth/design_1_FIR_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/sim/design_1_edge_detector_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/synth/design_1_edge_detector_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/sim/design_1_edge_detector_0_1.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/synth/design_1_edge_detector_0_1.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/sim/design_1_Led_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/synth/design_1_Led_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/sim/design_1_Balance_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/synth/design_1_Balance_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/sim/design_1_Volume_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/synth/design_1_Volume_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/sim/design_1_Mute_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/synth/design_1_Mute_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/sim/design_1_led_level_controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/synth/design_1_led_level_controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.xml
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Engine.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Manager.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/sim/design_1_AXI4Stream_UART_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xml
+./Audio.gen/sources_1/bd/design_1/synth/design_1.vhd
+./Audio.gen/sources_1/bd/design_1/sim/design_1.vhd
+./Audio.gen/sources_1/bd/design_1/design_1_ooc.xdc
+./Audio.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+./Audio.gen/sources_1/bd/design_1/design_1.bda
+./Audio.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+./Audio.gen/sources_1/bd/design_1/synth/design_1.hwdef
+./Audio.gen/sources_1/bd/design_1/sim/design_1.protoinst
+./Audio.srcs/sources_1/imports/design_1_wrapper.vhd
+
+<constrs_1>
+./Audio.srcs/constrs_1/imports/VHDL/Basys3_Constraints.xdc
+
+<sim_1>
+None
+
+<utils_1>
+None
+
+<design_1_FIR_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/sim/design_1_FIR_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/synth/design_1_FIR_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_FIR_0_0_1/design_1_FIR_0_0.xml
+
+<design_1_pmod_i2s2_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/axis_data_fifo_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_infrastructure_v1_1_0.vh
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_infrastructure_v1_1_vl_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/hdl/axis_data_fifo_v2_0_vl_rfs.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/sim/axis_data_fifo_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/synth/axis_data_fifo_0.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/src/axis_data_fifo_0/axis_data_fifo_0.xml
+./Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/pmod_i2s2_v1_0.v
+./Audio.gen/sources_1/bd/design_1/ipshared/d24d/src/axis_i2s2_fifo.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/sim/design_1_pmod_i2s2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/synth/design_1_pmod_i2s2_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_pmod_i2s2_0_0_1/design_1_pmod_i2s2_0_0.xml
+
+<design_1_Volume_Controller_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/sim/design_1_Volume_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/synth/design_1_Volume_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Volume_Controller_0_0_1/design_1_Volume_Controller_0_0.xml
+
+<design_1_Mute_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/sim/design_1_Mute_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/synth/design_1_Mute_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Mute_0_0_1/design_1_Mute_0_0.xml
+
+<design_1_edge_detector_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/sim/design_1_edge_detector_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/synth/design_1_edge_detector_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_0_1/design_1_edge_detector_0_0.xml
+
+<design_1_Balance_Controller_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/sim/design_1_Balance_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/synth/design_1_Balance_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Balance_Controller_0_0_1/design_1_Balance_Controller_0_0.xml
+
+<design_1_Led_Controller_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/sim/design_1_Led_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/synth/design_1_Led_Controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_Led_Controller_0_0_1/design_1_Led_Controller_0_0.xml
+
+<design_1_edge_detector_0_1>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/sim/design_1_edge_detector_0_1.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/synth/design_1_edge_detector_0_1.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_edge_detector_0_1_1/design_1_edge_detector_0_1.xml
+
+<design_1_led_level_controller_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/sim/design_1_led_level_controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/synth/design_1_led_level_controller_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_led_level_controller_0_0_1/design_1_led_level_controller_0_0.xml
+
+<design_1_AXI4Stream_UART_0_0>
+./Audio.srcs/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xci
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Engine.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/UART_Manager.vhd
+./Audio.gen/sources_1/bd/design_1/ipshared/453d/hdl/AXI4Stream_UART_v1_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/sim/design_1_AXI4Stream_UART_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.dcp
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.v
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.vhdl
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd
+./Audio.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+./Audio.ipdefs/pmod_i2s2/
+./Audio.ipdefs/pmod_jstk2/
+./Audio.ipdefs/ip_user_files/AXI4-Stream_UART
+
+<design_1_FIR_0_0>
+None
+
+<design_1_pmod_i2s2_0_0>
+None
+
+<design_1_Volume_Controller_0_0>
+None
+
+<design_1_Mute_0_0>
+None
+
+<design_1_edge_detector_0_0>
+None
+
+<design_1_Balance_Controller_0_0>
+None
+
+<design_1_Led_Controller_0_0>
+None
+
+<design_1_edge_detector_0_1>
+None
+
+<design_1_led_level_controller_0_0>
+None
+
+<design_1_AXI4Stream_UART_0_0>
+None
+
+./Audio.board/basys3
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/user/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./Audio/vivado.jou
+
+Source File = C:/Users/user/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./Audio/vivado.log
+
